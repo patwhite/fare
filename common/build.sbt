@@ -1,0 +1,3 @@
+name := "common"
+
+exportJars := true
