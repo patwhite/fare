@@ -9,7 +9,6 @@ libraryDependencies ++= Seq(
   "com.github.scopt" %% "scopt" % "3.5.0"
 )
 
-//javaOptions += "-XX:+UseG1GC"
 javaOptions += "-XX:+UseConcMarkSweepGC"
 javaOptions += "-XX:+UseParNewGC"
-javaOptions += "-Xmx8g"   // "-Xmx8G –XX:+UseG1GC"
+javaOptions += "-Xmx8g"

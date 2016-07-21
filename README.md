@@ -23,3 +23,8 @@ Usage: fare [options]
   -n, --npa <value>  Count of Non Player Actors to spin up. Defaults to 100,000
   --help             Prints this usage text.
 ```
+
+### Performance
+Currently, FARE is using the Concurrent Mark Sweep garbage collector with a parallel runner, and requests up to 8GB of RAM.
+
+In the future, we'll add the configuration settings for
